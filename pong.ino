@@ -29,14 +29,14 @@
 #define boardSize 32 //Length of the board (in pixels)
 
 #define paddleSpeed 1 //No unit
-#define ballAccel .1 //How fast the ball accelerates. 
-#define paddleSize 8 //Pixels
+#define ballAccel .01 //How fast the ball accelerates. 
+#define paddleSize 4 //Pixels
 #define ballSpeed 0.1 //How fast is the ball when the round starts
 #define startAngleOffset 40 //The offset of the angle which the ball initially launches from in a new round
 #define paddleMoveError 1
 #define fourBallSpeed 0.2
 
-#define bounceDeviation 105 //How much the ball's angle changes randomly on a bounce (in degrees)
+#define bounceDeviation 15 //How much the ball's angle changes randomly on a bounce (in degrees)
 
 #define p1Color matrix.Color333(255, 0, 0)
 #define p2Color matrix.Color333(255, 255, 0)
